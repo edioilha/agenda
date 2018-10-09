@@ -17,7 +17,7 @@ class CreateContatosTable extends Migration
             $table->increments('id');
             $table->string('saudacao', 5);
             $table->string('nome', 100);
-            $table->char('telefone', 15);
+            $table->char('telefone', 25);
             $table->string('email', 200)->nullable();
             $table->date('data_nascimento')->nullable();
             $table->string('avatar', 200)->nullable();
