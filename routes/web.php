@@ -18,3 +18,8 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::group(['middleware'=>'auth', 'prefix'=>'contato'], function (){
+    Route::get('/', 'ContatoController@index');
+});
+
