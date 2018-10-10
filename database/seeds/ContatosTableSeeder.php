@@ -11,7 +11,7 @@ class ContatosTableSeeder extends Seeder
      */
     public function run()
     {
-        //opcao 1 manualmente
+        //opcao 1 manualmente data
         DB::table('contatos')->insert([
             'saudacao'  => 'Sr.',
             'nome'      => 'Edio Ilha',
