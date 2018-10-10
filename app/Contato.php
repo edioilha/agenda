@@ -12,6 +12,7 @@ class Contato extends Model
 
     //Acessor
     /**
+     * Method that is used to retrieve image attributes
      * @param $value
      * @return string
      */
